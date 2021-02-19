@@ -1,0 +1,41 @@
+.header__lang-link {
+    height: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    gap: 18px;
+    list-style-type: none;
+    margin: 18px 0 6px;
+    padding: 0;
+    align-items: center;
+    justify-self: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.header__lang-link_color {
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.header__lang-link_color_active {
+  text-decoration-line: underline;
+  text-decoration-color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+      height: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 22px);
+      gap: 18px;
+      list-style-type: none;
+      margin: 14px 0 8px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+} 

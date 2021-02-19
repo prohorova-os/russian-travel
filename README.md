@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+В проекте используется адаптивная верстка, БЭМ, flex, grid. Проект адаптирован под размеры экранов: 1280px, 1024px, 768px, 320px.
+
 ### Обзор
 * Интро
 * Figma
@@ -13,11 +15,13 @@
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
 
 **Картинки**
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+https://tinypng.com/
 
-Удачи!
+https://github.com/prohorova-os/russian-travel
+
+
+
