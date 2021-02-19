@@ -8,6 +8,8 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link-color/header__lang-link-color.css);
+@import url(../blocks/header/__lang-link-color/_active/header__lang-link-color_active.css);
+@import url(../blocks/);
 
 /*блок content*/
 @import url(../blocks/content/content.css);
@@ -67,4 +69,13 @@
   font-display: swap;
   src: url("../vendor/font/Inter-Black.woff2") format("woff2"),
        url("../vendor/font/Inter-Black.woff2") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("../vendor/font/Inter-Bold.woff") format("woff2"),
+       url("../vendor/font/Inter-Bold.woff2") format("woff");
 }

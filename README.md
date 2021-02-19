@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+страница на gh-pages: https://prohorova-os.github.io/russian-travel/
+
 В проекте используется адаптивная верстка, БЭМ, flex, grid. Проект адаптирован под размеры экранов: 1280px, 1024px, 768px, 320px.
 
 ### Обзор
@@ -21,7 +23,6 @@ https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mob
 
 https://tinypng.com/
 
-https://github.com/prohorova-os/russian-travel
 
 
 

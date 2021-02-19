@@ -5,8 +5,7 @@
     justify-content: start;
     margin: 92px 0 0 48px;
     padding: 0;
-    width: 690px;
-    height: 429px;
+    max-width: 690px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -17,16 +16,14 @@
 
 @media screen and (max-width: 1023px) {
     .intro {
-        width: 720px;
-        height: 429px;
+        max-width: 720px;
         align-items: center;
         margin: 88px auto 0;
     }
 }
 @media screen and (max-width: 767px) {
     .intro {
-        width: 288px;
-        height: 754px;
+        max-width: 288px;
         align-items: center;
         margin: 64px auto 0;
     }

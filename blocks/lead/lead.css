@@ -1,6 +1,6 @@
 .lead {
-    width: 928px;
-    height: 962px;
+    max-width: 928px;
+    min-height: 962px;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -11,21 +11,21 @@
 
 @media screen and (min-width: 1280px) {
     .lead {
-        width: 984px;
-        height: 1005px;
+        max-width: 984px;
+        min-height: 1005px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead {
-        width: 768px;
-        height: 862px;
+        max-width: 768px;
+        min-height: 862px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead {
-        width: 320px;
-        height: 406px;
+        max-width: 320px;
+        min-height: 406px;
     }
 }

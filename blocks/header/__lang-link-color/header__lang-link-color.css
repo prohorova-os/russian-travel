@@ -2,8 +2,3 @@
     color: #FFFFFF;
     text-decoration-line: none;
   }
-  
-.header__lang-link-color_active {
-    text-decoration-line: underline;
-    text-decoration-color: #FFFFFF;
-}  
