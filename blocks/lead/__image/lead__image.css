@@ -1,15 +1,13 @@
 .lead__image {
-    max-width: 928px;
+    max-width: 100%;
     min-height: 580px;
-    margin: 56px 0 auto;
+    margin: 56px 0 0;
     padding: 0;
     object-fit: cover;
-    overflow: hidden;
 }
 
 @media screen and (min-width: 1280px) {
     .lead__image {
-        max-width: 984px;
         min-height: 615px;
         margin-top: 64px;
     }
@@ -17,14 +15,12 @@
 
 @media screen and (max-width: 1023px) {
     .lead__image {
-        max-width: 768px;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__image {
-       max-width: 320px;
        min-height: 200px;
        margin-top: 40px;
    }

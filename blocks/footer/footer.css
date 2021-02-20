@@ -1,8 +1,6 @@
 /*блок footer*/
-
 .footer {
     width: 928px;
-    height: 18px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -34,6 +32,5 @@
         margin: 64px auto 24px;
         padding: 0;
         width: 320px;
-        height: 310px;
     }
 }
