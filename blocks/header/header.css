@@ -1,18 +1,16 @@
 .header {
-    width: 928px;
+    width: 1184px;
     display: flex;
-    position: relative;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     margin: 28px auto 0;
     padding: 0;
   }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .header {
-        width: 1184px;
+        width: 928px;
     }
 }
 

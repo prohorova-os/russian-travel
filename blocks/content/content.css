@@ -1,5 +1,5 @@
 .content {
-    max-width: 1024px;
+    max-width: 1280px;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -8,9 +8,9 @@
     border: 2px solid white;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .content {
-        max-width: 1280px;
+        max-width: 1024px;
     }
 }
 

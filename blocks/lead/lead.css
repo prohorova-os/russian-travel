@@ -1,5 +1,5 @@
 .lead {
-    max-width: 928px;
+    max-width: 984px;
     position: relative;
     flex-direction: column;
     align-items: flex-start;
@@ -8,9 +8,9 @@
     padding: 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .lead {
-        max-width: 984px;
+        max-width: 928px;
     }
 }
 

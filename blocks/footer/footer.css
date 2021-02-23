@@ -1,18 +1,16 @@
 /*блок footer*/
 .footer {
-    width: 928px;
-    position: relative;
+    width: 1184px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: start;
     margin: 92px auto 24px;
     padding: 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .footer {
-        width: 1184px;
+        width: 928px;
     }
 }
 
@@ -25,12 +23,11 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        position: relative;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         margin: 64px auto 24px;
         padding: 0;
-        width: 320px;
+        width: 288px;
     }
 }
