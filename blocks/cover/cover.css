@@ -1,5 +1,6 @@
 .cover {
     max-width: 1184px;
+    min-height: 740px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,7 +9,7 @@
     z-index: 2;
     background-image: url(../../image/cover-trains.jpg);
     box-sizing: border-box;
-    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .cover:before {
@@ -31,19 +32,20 @@
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 100%;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        max-width: 100%;
         margin-top: 90px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
-        max-width: 100%;
         margin-top: 66px;
+        min-height: 200px;
     }
 }

@@ -27,7 +27,6 @@
 
 @media screen and (max-width: 767px) {
     .place__paragrapf {
-        font-size: 16px;
         margin: 0 16px;
     }
 }
